@@ -1,0 +1,34 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your name: ");
+        String name = scanner.nextLine();
+        System.out.println("Enter your age: ");
+int age = scanner.nextInt();
+System.out.println("Enter your height: ");
+int height = scanner.nextInt();
+System.out.println("Enter your weight: ");
+int weight = scanner.nextInt();
+System.out.println("Enter your gender: ");
+String male = scanner.nextLine();
+        class Human{
+
+            public int getAge() {
+                return age;
+            }
+            public int getHeight(){
+                return height;
+            }
+            public int getWeight(){
+                return weight;
+            }
+            public String getMale(){
+                return male;
+            }
+            public String getName(){
+                return name;
+            }
+        }
+    }
+}
